@@ -3,7 +3,7 @@ import json
 import math
 import urllib.request
 
-VERSION_ACTUELLE = "1.5"
+VERSION_ACTUELLE = "1.6"
 REPO_GITHUB = "Scratch-OS-X/Aurore-Pro"
 
 
@@ -23,7 +23,7 @@ def maj():
                         f"\033[93m⚠️  [MISE À JOUR] Une nouvelle version ({derniere_version}) est disponible !"
                     )
                     print(
-                        f"👉 Tape 'git pull' dans ton terminal pour la récupérer.\033[0m\n"
+                        f"Tapez 'git pull origin main' dans ton terminal pour la récupérer.\033[0m\n"
                     )
                 else:
                     return True
@@ -60,7 +60,7 @@ while True:
         print("Vérification des mises à jour...")
         est_a_jour = maj()
         if est_a_jour:
-            print("\033[92m✅ Vous utilisez déjà la dernière version !\033[0m")
+            print("\033[92mVous utilisez déjà la dernière version !\033[0m")
 
     elif aurore == "time":
         now = dt.datetime.now()
