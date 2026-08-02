@@ -26,6 +26,5 @@ cd Aurore-Pro
 ### Mise à jour :
 ```Bash
 cd Aurore-Pro
-&&
 git pull origin main
 ```
