@@ -23,24 +23,9 @@ cd Aurore-Pro
    python script.py
    ```
 
-## TOTAL (toutes les commandes) :
-
-**MacOS / Linux :**
-```bash
-git clone https://github.com/Scratch-OS-X/Aurore-Pro.git
-cd Aurore-Pro
-python3 script.py
-```
-
-**Windows :**
-```bash
-git clone https://github.com/Scratch-OS-X/Aurore-Pro.git
-cd Aurore-Pro
-python script.py
-```
-
 ### Mise à jour :
 ```Bash
 cd Aurore-Pro
+&&
 git pull origin main
 ```
