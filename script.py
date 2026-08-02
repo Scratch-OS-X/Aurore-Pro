@@ -1,7 +1,7 @@
 import math
 import datetime as dt
 
-print("Aurore Pro Py [BÊTA]")
+print("\nAurore Pro Py [BÊTA]")
 print("Tape 'help' pour une liste des commandes.")
 
 while True:
@@ -10,8 +10,14 @@ while True:
     if aurore == "help":
         print("Tape 'quit' pour quitter")
         print("Tape 'time' pour obtenir la date et l'heure actuelle")
+        print("Tape 'version' (ou 'v') pour obtenir le numéro de version")
+        print("Tape '+' pour une addition, '-' pour une soustraction, '*' (ou 'x') pour unr multiplication ou '/' (ou ':' ou '÷') pour unr division")
+
     elif aurore == "quit":
         break
+
+    elif aurore == "version" or aurore == "v" :
+        print("Aurore Pro Py [v. 1.2 // BÊTA]
 
     elif aurore == "time":
         now = dt.datetime.now()
