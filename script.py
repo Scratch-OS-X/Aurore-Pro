@@ -6,6 +6,7 @@ print("Tape 'help' pour une liste des commandes.")
 
 while True:
     aurore = input("\n>>> ")
+    print("\n")
 
     if aurore == "help":
         print("Tape 'quit' pour quitter")
