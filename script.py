@@ -3,7 +3,7 @@ import json
 import math
 import urllib.request
 
-VERSION_ACTUELLE = "1.6"
+VERSION_ACTUELLE = "1.5"
 REPO_GITHUB = "Scratch-OS-X/Aurore-Pro"
 
 
@@ -23,7 +23,7 @@ def maj():
                         f"\033[93m⚠️  [MISE À JOUR] Une nouvelle version ({derniere_version}) est disponible !"
                     )
                     print(
-                        f"Tapez 'git pull origin main' dans ton terminal pour la récupérer.\033[0m\n"
+                        f"Tapez 'git pull' dans ton terminal pour la récupérer.\033[0m\n"
                     )
                 else:
                     return True
