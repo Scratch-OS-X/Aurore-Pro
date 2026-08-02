@@ -17,7 +17,7 @@ while True:
         break
 
     elif aurore == "version" or aurore == "v" :
-        print("Aurore Pro Py [v. 1.2 // BÊTA]
+        print("Aurore Pro Py [v. 1.3 // BÊTA]")
 
     elif aurore == "time":
         now = dt.datetime.now()
